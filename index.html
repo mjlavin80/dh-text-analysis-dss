@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Git and Github</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      th {color: white; background-color: black; padding-top: 7px; padding-bottom: 7px;}
+      td {padding: 3px; }
+      table { width: 100%; border-collapse: collapse;}
+      td, th {border: 1px solid black; font-size: 95%; text-align: center;
+      }
+      body { font-family: 'Times New Roman', 'times', 'serif'; }
+      h1, h2, h3, h4 {
+        font-family: 'Times New Roman', 'times', 'serif';
+        font-weight: normal;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+      }
+      h4 { font-size: 115%;}
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono';}
+      p {
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+      #raptor { width: 50%;}
+      #xkcd { width: 40%;}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: middle
+
+# Digital Humanities Approaches to Text Analysis
+
+Matthew J. Lavin
+
+Clinical Assistant Professor of English and Director of Digital Media Lab
+
+University of Pittsburgh
+
+January 2017
+
+
+---
+class: middle
+
+# Overview
+
+- ### Computer-assisted hermeneutics vs. computational text analysis
+
+- ### Direct measures
+
+- ### Comparisons
+
+- ### Change over time
+
+- ### Clustering, classification
+
+- ### Choice of features
+
+- ### Choice of feature blocks
+
+
+---
+class: middle
+
+# Computer-assisted hermeneutics vs. computational text analysis
+
+  - ### e.g., scholarly editing, TEI
+  - ### Uses computers
+  - ### Rely on hermeneutic or interpretive work
+  - ### Often engage in argument by prototype
+  - ### Often part of a pipeline for quantitative or scaled computation
+
+---
+class: middle
+
+  <img style="height: 100%; width: 100%;" src="./images/tei.png"/>
+
+---
+class: middle
+
+# Direct measures
+
+- ### Term counts
+- ### Type-token ratio
+- ### Parts-of-speech
+- ### Collocations
+- ### Named entity recognition
+- ### Sentiment scores
+
+---
+class: middle
+
+# Change over time
+
+- ### Germanic-Latinate ratio in literature, 1700-1920 (Underwood and Sellers)
+- ### Repetition in 19th Century American Fiction (Gemma et al)
+
+---
+class: middle
+
+<img style="height: 100%; width: 100%;" src="./images/diction.jpg"/>
+
+---
+class: middle
+
+# Clustering, classification
+
+- ### Topic modeling (Blei and Lafferty)
+- ### Machine learning (Houston and Audenaert)
+
+---
+class: middle
+
+<img style="height: 150%; width: 150%;" src="./images/lda.png"/>
+
+
+---
+class: middle
+
+# Choice of features
+
+- ### High frequency function words
+- ### N-grams
+- ### Term frequencies
+- ### Parts of speech
+- ### Sentiment scores
+- ### Shape of text block
+
+---
+class: middle
+
+<img style="height: 125%; width: 125%;" src="./images/pos.png"/>
+
+
+---
+class: middle
+
+# Choice of feature blocks
+
+- ### A novel
+- ### Novels in a span of years
+- ### A chapter
+- ### A chunk
+- ### A TEI element or group of elements (e.g. all lines spoken by Hamlet)
+
+---
+class: middle
+
+# Bibliography
+
+- Binongo, José Nilo G. "Who Wrote the 15th Book of Oz? An Application of Multivariate Analysis to Authorship Attribution." Chance 16.2 (2003): 9–17. Print.
+
+- Blei, David M., and John D. Lafferty. "A Correlated Topic Model of Science." The Annals of Applied Statistics 1.1 (2007): 17–35. Print.
+
+- Gemma, Marissa, Frédéric Glorieux, and Jean-Gabriel Ganascia. "Operationalizing the Colloquial Style: Repetition in 19th-Century American Fiction." Digital Scholarship in the Humanities (2015): fqv066. dsh.oxfordjournals.org. Web.
+
+- Houston, Natalie, and Neal Audenaert. "Visual Page: Towards Large Scale Analysis of Nineteenth-Century Print Culture" 2013 IEEE International Conference on Big Data.  October 2013. 9-16.
+
+- Liddle, Dallas. "Genre: 'Distant Reading' and the Goals of Periodicals Research." Victorian Periodicals Review 48.3 (2015): 383–402. Project MUSE. Web.
+
+- Underwood, Ted, and Jordan Sellers. "The Emergence of Literary Diction." Journal of Digital Humanities 1.2 (2012): 1–2. Web.
+
+(See also bibliography.md in repo)
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
